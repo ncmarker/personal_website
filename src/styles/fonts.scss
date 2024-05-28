@@ -1,0 +1,61 @@
+@import './variables';
+
+.heading {
+  font-family: $font-family-inter;
+  font-weight: $inter-bold;
+  font-size: 88px;
+  color: white;
+}
+
+.subheading {
+  font-family: $font-family-inter;
+  font-weight: $inter-bold;
+  font-size: 52px;
+  color: white;
+}
+
+.title {
+  font-family: $font-family-inter;
+  font-weight: $inter-bold;
+  font-size: 32px;
+  color: white;
+}
+
+.subtitle-bold {
+  font-family: $font-family-inter;
+  font-weight: $inter-bold;
+  font-size: 24px;
+  color: white;
+}
+
+.subtitle-regular {
+  font-family: $font-family-inter;
+  font-weight: $inter-regular;
+  font-size: 24px;
+  color: white;
+}
+
+.bold-grey-text {
+  font-family: $font-family-inter;
+  font-weight: $inter-bold;
+  font-size: 18px;
+  color: $grey-font;
+}
+
+.bold-gradient-text {
+  font-family: $font-family-inter;
+  font-weight: $inter-bold;
+  font-size: 18px;
+  background: $purple-gradient;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+.paragraph {
+  font-family: $font-family-inter;
+  font-weight: $inter-semi-bold;
+  font-size: 16px;
+  color: white;
+}
