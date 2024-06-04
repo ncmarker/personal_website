@@ -1,0 +1,16 @@
+@import '../../styles/main';
+
+.button-filled {
+  background: $purple-gradient;
+  padding: 7px 25px;
+}
+
+.button-filled:hover, .button-unfilled:hover {
+  color: $white-hover;
+}
+
+.button-unfilled {
+  background: transparent;
+  border: 3px solid $purple;
+  padding: 5px 25px;
+}

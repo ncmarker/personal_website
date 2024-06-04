@@ -53,9 +53,24 @@
   -webkit-text-fill-color: transparent;
 }
 
+.grey-text {
+  font-family: $font-family-inter;
+  font-weight: $inter-regular;
+  font-size: 18px;
+  color: $grey-font;
+}
+
 .paragraph {
   font-family: $font-family-inter;
   font-weight: $inter-semi-bold;
   font-size: 16px;
   color: white;
+}
+
+.placeholder {
+  /* in textinput.scss also */
+  font-family: $font-family-inter;
+  font-weight: 400;
+  font-size: 16px;
+  color: $placeholder-font;
 }

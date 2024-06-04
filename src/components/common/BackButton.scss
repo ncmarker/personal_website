@@ -1,0 +1,11 @@
+@import '../../styles/main';
+
+.base-class {
+    &:hover {
+      .svg, & {
+        color: $white-hover; 
+        fill: $white-hover; 
+      }
+    }
+  }
+  

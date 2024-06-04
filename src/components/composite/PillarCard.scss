@@ -1,0 +1,11 @@
+@import '../../styles/main';
+
+.card {
+  background: $pink-gradient;
+  border: 1px solid rgba(255,255,255, .3);
+  padding: 40px;
+  width: 324px;
+  height: auto;
+  border-radius: 12px;
+  text-align: center;
+}
