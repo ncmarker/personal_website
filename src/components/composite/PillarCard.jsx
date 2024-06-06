@@ -2,7 +2,6 @@ import React from 'react';
 import './PillarCard.scss';
 
 function PillarCard(props) {
-//   const baseClasses = "bg-white flex justify-center items-center"
 
 return (
     <div className="card">

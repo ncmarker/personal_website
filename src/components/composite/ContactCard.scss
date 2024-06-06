@@ -1,0 +1,23 @@
+@import '../../styles/main';
+
+.contact-card {
+  background: $pink-gradient;
+  border: 1px solid rgba(255,255,255, .3);
+  padding: 55px;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  text-align: center;
+  @media (max-width: 400px) {
+    padding: 20px;
+  }
+}
+
+.submit-btn {
+    background: $purple-gradient;
+    padding: 7px 25px;
+}
+
+.submit-btn:hover {
+    color: $white-hover;
+}

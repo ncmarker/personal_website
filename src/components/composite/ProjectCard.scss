@@ -1,0 +1,58 @@
+@import '../../styles/main';
+
+.project-card {
+  background: $pink-gradient;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  width: 100%;
+  max-width: 1234px; 
+  height: auto;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  @media (min-width: 922px) {
+    flex-direction: row;
+    height: 400px;
+  }
+  @media (min-width: 1300px) {
+    height: 400px;
+  }
+  @media (min-width: 1471px) {
+    height: 352px;
+  }
+}
+
+.project-image {
+  border-radius: 12px 0px 0px 12px;
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+  @media (min-width: 922px) {
+    width: 45%;
+  }
+  @media (min-width: 1300px) {
+    height: 100%;
+    width: auto;
+    display: flex;
+  }
+}
+
+.first-buttons {
+  display: none;
+  @media (min-width: 1300px) {
+    display: inline-flex;
+  }
+}
+
+.project-info {
+  padding: 28px;
+  flex: 1;
+}
+
+.project-buttons {
+  flex-direction: column;
+  text-align: center;
+  @media (min-width: 922px) {
+    flex-direction: row;
+    display: flex;
+  }
+}

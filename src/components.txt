@@ -1,0 +1,49 @@
+import Button from './components/common/Button.jsx';
+import BackButton from './components/common/BackButton.jsx';
+import LangIcon from './components/common/LanguageIcon.jsx';
+import ContactIcon from './components/common/ContactIcon.jsx';
+import TextInput from './components/common/TextInput.jsx';
+import PillarCard from './components/composite/PillarCard.jsx';
+import ProjectCard from './components/composite/ProjectCard.jsx';
+import Nav from './components/composite/Nav.jsx';
+import ContactCard from './components/composite/ContactCard.jsx';
+import Footer from './components/composite/Footer.jsx';
+
+<Nav/>
+
+<Button styleType="filled" text="Resume" link="https://www.google.com"/>
+<Button styleType="unfilled" text="GitHub" link="https://www.google.com"/>
+<Button styleType="unfilled" type="demo" text="Play Demo" link="https://www.google.com"/>
+
+
+<BackButton link="https://www.google.com"/>
+
+<LangIcon size="large" language="python"/>
+<LangIcon size="medium" language="python"/>
+<LangIcon size="small" language="python"/>
+
+<ContactIcon image="/images/icons/github_icon.png" alt="GitHub icon" link="https://www.github.com"/>
+<ContactIcon image="/images/icons/phone_icon.png" alt="Phone icon" link="tel:+14843653437"/>
+<ContactIcon image="/images/icons/linkedin_icon.png" alt="LinkedIn icon" link="https://www.linkedin.com/in/nickmarker"/>
+<ContactIcon image="/images/icons/resume_icon.png" alt="Resume icon" link="https://www.google.com"/>
+
+<TextInput size="short" placeholder="Full Name"/>
+<TextInput size="long" placeholder="Message..."/>
+
+<PillarCard title="Design" image="/images/icons/design_icon.png" alt="design icon" text="Prior experience in UX Design and Research, allowing me to have exposure to the full product lifecycle."/>
+
+<ProjectCard 
+image="/images/landing/landing_pixel.png" 
+alt="Pixel Image" 
+title="Pixel" 
+description="Ensuring your design and coded prototype are aligned" 
+date="April 2024" 
+languages={['js', 'css', 'python', 'flask', 'tailwind', 'html', 'react', 'scss']} 
+github="https://www.nickmarkerdesign.com" 
+demo="https://www.nickmarkerdesign.com" 
+details="https://www.nickmarkerdesign.com"
+/>
+
+<ContactCard/>
+
+<Footer/>

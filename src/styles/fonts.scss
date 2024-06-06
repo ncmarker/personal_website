@@ -3,8 +3,12 @@
 .heading {
   font-family: $font-family-inter;
   font-weight: $inter-bold;
-  font-size: 88px;
   color: white;
+  line-height: normal;
+  font-size: 65px;
+  @media (min-width: 768px) {
+    font-size: 88px;
+  }
 }
 
 .subheading {
@@ -70,7 +74,14 @@
 .placeholder {
   /* in textinput.scss also */
   font-family: $font-family-inter;
-  font-weight: 400;
+  font-weight: $inter-regular;
   font-size: 16px;
   color: $placeholder-font;
+}
+
+.footer {
+  font-family: $font-family-inter;
+  font-weight: $inter-light;
+  font-size: 14px;
+  color: white;
 }

@@ -5,12 +5,19 @@
   padding: 7px 25px;
 }
 
-.button-filled:hover, .button-unfilled:hover {
-  color: $white-hover;
-}
-
 .button-unfilled {
   background: transparent;
-  border: 3px solid $purple;
+  border: 2px solid $purple;
   padding: 5px 25px;
+}
+
+.play-icon {
+  fill: white; 
+}
+
+.button-filled:hover, .button-unfilled:hover {
+  .play-icon {
+    fill: $white-hover;
+  }
+  color: $white-hover;
 }

@@ -2,12 +2,12 @@ import React, { useState } from 'react';
 
 function ContactIcon(props) {
   const [currentImage, setCurrentImage] = useState(props.image);
-  const hoverImage = props.image.replace('.png', '_hover.png'); // Adjust this if your naming convention is different
+  const hoverImage = props.image.replace('.png', '_hover.png');
 
   return (
     <a href={props.link} target="_blank" rel="noopener noreferrer">
       <div
-        className="w-[43px] h-[43px] flex justify-center items-center"
+        className="w-[43px] h-[43px] inline-flex justify-center items-center"
         onMouseEnter={() => setCurrentImage(hoverImage)}
         onMouseLeave={() => setCurrentImage(props.image)}
       >
