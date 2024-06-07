@@ -85,3 +85,23 @@
   font-size: 14px;
   color: white;
 }
+
+.sidebar-text {
+  font-family: $font-family-inter;
+  font-weight: $inter-semi-bold;
+  font-size: 18px;
+  color: $grey-font;
+  display: inline-flex;
+  width: auto;
+  &:hover {
+    color: $white-hover;
+  }
+}
+
+.sidebar-text-active {
+  font-family: $font-family-inter;
+  font-weight: $inter-semi-bold;
+  font-size: 18px;
+  color: white;
+}
+

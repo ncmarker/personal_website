@@ -13,13 +13,13 @@ function LandingPage() {
   return (
     <div className="w-10/12 mx-auto">
 
-        <section className="flex flex-row justify-between items-center mt-[160px]">
+        <section className="flex flex-col-reverse justify-between items-center mt-16 gap-8 md:flex-row md:mt-[160px]">
           <div className="w-11/12 md:w-5/12">
             <p className="bold-grey-text">&#128075; Hi there, I am</p>
             <h1 className="heading my-[7px] md:my-[15px]">Nick Marker</h1>
             <p className="bold-grey-text">I am a <span className="bold-gradient-text">Software Engineer</span> interested in the intersection of Design, Development, and Artificial Intelligence.</p>
           </div>
-          <img className="hidden md:flex w-5/12" src="/images/landing/landing_hero.png" alt="Hero Animation"/>
+          <img className="w-5/6 mb-12 md:flex md:w-5/12" src="/images/landing/landing_hero.png" alt="Hero Animation"/>
         </section>
 
         <section id="projects" className="page-section">

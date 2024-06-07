@@ -14,7 +14,7 @@ return (
       <div>
         <h5 className="title mb-[8px]">{props.title}</h5>
         <p className="subtitle-regular mb-[25px]">{props.description}</p>
-        <p className="grey-text">{props.date}</p>
+        <p className="grey-text mb-4">{props.date}</p>
         <div className="flex flex-wrap gap-[20px] my-[5px]">
           {props.languages.map((language, index) => (
             <LangIcon key={index} language={language} size="small" />

@@ -7,6 +7,9 @@ import Nav from './components/composite/Nav.jsx';
 import Footer from './components/composite/Footer.jsx';
 
 import LandingPage from './pages/LandingPage.jsx';
+import Pixel from './pages/Pixel.jsx';
+import Ekko from './pages/Ekko.jsx';
+
 
 function App() {
   return (
@@ -14,8 +17,9 @@ function App() {
       <Nav />
       <Routes>
         <Route path="/" element={<LandingPage />} />
-        {/* <Route path="/project1" element={<ProjectPage1 />} /> */}
-        {/* <Route path="/project2" element={<ProjectPage2 />} /> */}
+        <Route path="/pixel" element={<Pixel />} />
+        <Route path="/ekko" element={<Ekko />} />
+
       </Routes>
       <Footer />
     </div>
