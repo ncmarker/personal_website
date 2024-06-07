@@ -78,69 +78,169 @@ const projectsData = [
     },
     {
         image: "/images/landing/landing_desy.png",
+        mockup: "/images/desy/desy_hero.png",
         alt: "DESY Image",
         title: "DESY",
+        role: "Founder, Developer",
         description: "Implementing and exporting a design system with ease",
         date: "October 2024",
         languages: ['js', 'css', 'html'],
         github: "https://www.nickmarkerdesign.com",
         demo: "https://www.nickmarkerdesign.com",
         details: "/Desy",
+        features: [
+            {
+                image: "/images/desy/feature_1.png",
+                title: "Scan Elements in File",
+                description: "Click “Scan File” to scan all elements in your file for design system compliance. All non-compliant elements will be listed under their parent frame name for organization. Based on the current qualities of the non-compliant element, the most similar style from your design system is recommended. There is also a efficient locator button that allows you to quickly find and select the element within your file."
+            },
+            {
+                image: "/images/desy/feature_2.png",
+                title: "Export CSS Code",
+                description: "DESY provides exportable CSS code for all styles in your design system. Developers can copy this code into an external stylesheet and have a centralized place for all future updates and modifications to the brand’s design system."
+            },
+            {
+                image: "/images/desy/feature_3.png",
+                title: "Design System Expansion",
+                description: "DESY will make suggestions for you to expand your design system based on repeated styles in your Figma file that do not comply with the current design system in place. You can quickly view all items with this non-compliant style, or dismiss the suggestion if you choose not to incorporate the new style into your design system."
+            },
+        ],
+        systemDesign: "/images/desy/desy_system_design.png",
     },
     {
         image: "/images/landing/landing_spotify.png",
+        mockup: "/images/spotify/spotify_hero.png",
         alt: "Spotify Image",
-        title: "Spotify Song Guessing Game",
+        title: "Song Guess",
+        role: "Developer, Designer",
         description: "30 seconds to guess songs from your favorite genre",
         date: "May 2024",
         languages: ['js', 'css', 'html', 'php', 'mysql'],
         github: "https://www.nickmarkerdesign.com",
         demo: "https://www.nickmarkerdesign.com",
         details: "/Spotify",
+        features: [
+            {
+                image: "/images/spotify/feature_1.png",
+                title: "User Login",
+                description: "Users log into the platform with an email and a password. This allows them to return back to the game and maintain their high score along with their profile specific data."
+            },
+            {
+                image: "/images/spotify/feature_2.png",
+                title: "Profile Customization",
+                description: "Users can modify their email, password, favorite genre, and favorite song at any time once logged in. Users also have the ability to change their profile picture with the option of six different animals."
+            },
+            {
+                image: "/images/spotify/feature_3.png",
+                title: "Song Guessing Game",
+                description: "The primary use of the application is the song guessing game. Users first authenticate their profile with Spotify prior to beginning. Then they select a genre of choice and click 'Begin'. The timer will start and the first song will begin playing. Type in the name of the song to earn a point, or click 'skip' to move onto the next song in the list."
+            },
+            {
+                image: "/images/spotify/feature_4.png",
+                title: "Top Scoring Leaderboard",
+                description: "Users can view a leaderboard with the top scoring players and some information from their profile. Users can also search any username to find other players and their score, favorite song, and favorite genre."
+            },
+        ],
+        systemDesign: "/images/spotify/spotify_system_design.png",
     },
     {
         image: "/images/landing/landing_mypassword.png",
+        mockup: "/images/myPassword/myPassword_hero.png",
         alt: "MyPassword Image",
         title: "MyPassword",
+        role: "Developer",
         description: "Assess password strength to maintain secure logins",
         date: "May 2024",
         languages: ['sklearn', 'python', 'flask', 'css', 'html'],
         github: "https://www.nickmarkerdesign.com",
         demo: "https://www.nickmarkerdesign.com",
         details: "/MyPassword",
+        features: [
+            {
+                image: "/images/myPassword/feature_1.png",
+                title: "Assess Password Strength",
+                description: "Enter any password and receive a predicted strength with 99% accuracy (accuracy from model training). Strength options include Weak, Medium, and Strong. Password strength is also displayed in a graphic, with a point representing the predicted strength."
+            },
+            {
+                image: "/images/myPassword/feature_2.png",
+                title: "Add Password to Dataset",
+                description: "After receiving a prediction, a user can add their password with its corresponding strength to the dataset. This allows the dataset to continuously grow."
+            },
+            {
+                image: "/images/myPassword/feature_3.png",
+                title: "Password Frequency Graph",
+                description: "View a histogram of all passwords in the dataset and their corresponding strengths. This graphic displays an overview of the number of passwords of one strength category relative to the others as the dataset grows."
+            },
+        ],
+        systemDesign: "/images/myPassword/myPassword_system_design.png",
     },
     {
         image: "/images/landing/landing_blackjack.png",
+        mockup: "/images/blackjack/blackjack_hero.png",
         alt: "Blackjack Image",
         title: "Blackjack",
+        role: "Developer, Designer",
         description: "Try to beat the dealer in a classic gambling game",
         date: "May 2023",
         languages: ['js', 'css', 'html', 'react'],
         github: "https://www.nickmarkerdesign.com",
         demo: "https://www.nickmarkerdesign.com",
         details: "/Blackjack",
+        features: [
+            {
+                image: "/images/blackjack/feature_1.png",
+                title: "Bet, Hit, and Pass",
+                description: "While playing Blackjack the user is dealt cards and then has the opportunity to first bet on their current hand and then either “Hit” (get another card) or “Pass” (end their turn). The dealer will then repeat the same steps and the player closest to 21 without going over wins the money that was bet."
+            },
+            {
+                image: "/images/blackjack/feature_2.png",
+                title: "Mock Bank Account",
+                description: "The user starts with $100 and can purchase a variety of chips according to their game strategy. If the user loses all money while playing then they have “gone bankrupt” and lost the game. Any earned winnings can go towards new chips for the user to bet with."
+            },
+        ],
+        systemDesign: "/images/blackjack/blackjack_system_design.png",
     },
     {
         image: "/images/landing/landing_search.png",
+        mockup: "/images/mockSearch/mockSearch_hero.png",
         alt: "Search Image",
-        title: "Mock Search Prediction",
+        title: "Mock Search",
+        role: "Developer",
         description: "Predict user demographics based on keyword searches",
         date: "May 2023",
         languages: ['python'],
         github: "https://www.nickmarkerdesign.com",
         demo: "https://www.nickmarkerdesign.com",
         details: "/MockSearch",
+        features: [
+            {
+                image: "/images/mockSearch/feature_1.png",
+                title: "Predict User Demographics",
+                description: "After reading the directions, the user will be prompted to enter three mock Google searches. Based on the keywords in these phrases, specific demographics will be predicted about the user. The user also has the option to watch an example run through prior to entering their searches."
+            },
+        ],
+        systemDesign: "/images/mockSearch/mockSearch_system_design.png",
     },
     {
         image: "/images/landing/landing_snap.png",
+        mockup: "/images/snap/snap_hero.png",
         alt: "Snap Image",
-        title: "Jumbotron Snap Lens",
+        title: "Snap Lens",
+        role: "Creator",
         description: "Act as if you and your friends are on the Jumbotron",
         date: "April 2024",
         languages: ['snap'],
         github: "https://www.nickmarkerdesign.com",
         demo: "https://www.nickmarkerdesign.com",
-        details: "/SnapLens",
+        details: "/Snap",
+        features: [
+            {
+                image: "/images/snap/feature_1.png",
+                title: "Jumbotron Experience",
+                description: "User’s can use both their front and back camera to take pictures and videos of friends, family, pets, and more, to act as if they are on the Jumbotron at a live sports game."
+            },
+        ],
+        systemDesign: "/images/snap/snap_system_design.png",
     },
   ];
   

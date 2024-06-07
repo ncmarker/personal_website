@@ -148,7 +148,7 @@ function Ekko() {
                 the language they are trying to learn and switch between different languages throughout their language learning 
                 journey. We also hope to improve our ability to understand specific pronunciations for words, and improve accuracy 
                 for grammatical mistakes. Ultimately, we are very pleased with what we were able to accomplish in only 26 hours, 
-                and we are excited to continue building at hackathons in the future. </p>
+                and we are excited to continue building at hackathons in the future.</p>
             </section>
 
             </div>
