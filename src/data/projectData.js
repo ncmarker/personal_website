@@ -8,7 +8,7 @@ const projectsData = [
         description: "Ensuring your design and coded prototype are aligned",
         date: "April 2024",
         languages: ['js', 'css', 'python', 'flask', 'tailwind', 'html', 'react', 'scss'],
-        github: "https://www.nickmarkerdesign.com",
+        github: "https://github.com/ncmarker/pixel",
         demo: "https://www.nickmarkerdesign.com",
         details: "/Pixel",
         features: [
@@ -49,7 +49,7 @@ const projectsData = [
         description: "Your personalized language learning vocal chatbot",
         date: "February 2024",
         languages: ['js', 'css', 'html', 'tailwind', 'bun', 'react'],
-        github: "https://www.nickmarkerdesign.com",
+        github: "https://github.com/chroline/ekko",
         demo: "https://www.nickmarkerdesign.com",
         details: "/Ekko",
         features: [
@@ -85,7 +85,7 @@ const projectsData = [
         description: "Implementing and exporting a design system with ease",
         date: "October 2024",
         languages: ['js', 'css', 'html'],
-        github: "https://www.nickmarkerdesign.com",
+        github: "https://github.com/ncmarker/DESY",
         demo: "https://www.nickmarkerdesign.com",
         details: "/Desy",
         features: [
@@ -116,7 +116,7 @@ const projectsData = [
         description: "30 seconds to guess songs from your favorite genre",
         date: "May 2024",
         languages: ['js', 'css', 'html', 'php', 'mysql'],
-        github: "https://www.nickmarkerdesign.com",
+        github: "https://github.com/ncmarker/Song_Guess",
         demo: "https://www.nickmarkerdesign.com",
         details: "/Spotify",
         features: [
@@ -152,7 +152,7 @@ const projectsData = [
         description: "Assess password strength to maintain secure logins",
         date: "May 2024",
         languages: ['sklearn', 'python', 'flask', 'css', 'html'],
-        github: "https://www.nickmarkerdesign.com",
+        github: "https://github.com/ncmarker/MyPassword",
         demo: "https://www.nickmarkerdesign.com",
         details: "/MyPassword",
         features: [
@@ -183,7 +183,7 @@ const projectsData = [
         description: "Try to beat the dealer in a classic gambling game",
         date: "May 2023",
         languages: ['js', 'css', 'html', 'react'],
-        github: "https://www.nickmarkerdesign.com",
+        github: "https://github.com/ncmarker/blackjack",
         demo: "https://www.nickmarkerdesign.com",
         details: "/Blackjack",
         features: [
@@ -209,7 +209,7 @@ const projectsData = [
         description: "Predict user demographics based on keyword searches",
         date: "May 2023",
         languages: ['python'],
-        github: "https://www.nickmarkerdesign.com",
+        github: "https://github.com/ncmarker/mockSearch",
         demo: "https://www.nickmarkerdesign.com",
         details: "/MockSearch",
         features: [
@@ -230,8 +230,8 @@ const projectsData = [
         description: "Act as if you and your friends are on the Jumbotron",
         date: "April 2024",
         languages: ['snap'],
-        github: "https://www.nickmarkerdesign.com",
-        demo: "https://www.nickmarkerdesign.com",
+        github: "https://www.snapchat.com/lens/3174dac6b2ba483e9345cea033490b7f?type=SNAPCODE&metadata=01",
+        demo: "https://www.snapchat.com/lens/3174dac6b2ba483e9345cea033490b7f?type=SNAPCODE&metadata=01",
         details: "/Snap",
         features: [
             {
