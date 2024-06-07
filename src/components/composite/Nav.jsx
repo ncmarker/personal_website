@@ -3,11 +3,18 @@ import { Link, useNavigate } from 'react-router-dom';
 import './Nav.scss';
 import Button from '../common/Button.jsx';
 
+import { useNavigation } from '../transitions/NavigationContext';
+
+
 function Nav() {
   const [isOpen, setIsOpen] = useState(false);
   const navigate = useNavigate();
 
+  const { resetSource } = useNavigation();
+
   const handleNavigation = (section) => {
+    resetSource();
+
     navigate(`/`);
     setTimeout(() => {
       const element = document.getElementById(section);

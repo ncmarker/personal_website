@@ -27,22 +27,26 @@ const ContactForm = () => {
       message: formData.message
     };
 
-    emailjs.send('service_mbx7pkn', 'template_8zeimka', templateParams, 'yHYqOOSKeihUMTMP1')
-      .then((response) => {
-        console.log('Email sent successfully!', response.status, response.text);
-        alert('Email sent successfully!');
-      })
-      .catch((err) => {
-        console.error('Failed to send email. Error:', err);
-        alert('Failed to send email. Please try again later.');
-      });
+    if (templateParams.email === '' || templateParams.subject === '' || templateParams.message === '') {
+      alert("Please fill in all input fields.");
+    } else {
+      emailjs.send('service_mbx7pkn', 'template_8zeimka', templateParams, 'yHYqOOSKeihUMTMP1')
+        .then((response) => {
+          console.log('Email sent successfully!', response.status, response.text);
+          alert('Email sent successfully!');
+        })
+        .catch((err) => {
+          console.error('Failed to send email. Error:', err);
+          alert('Failed to send email. Please try again later.');
+        });
 
-    // Reset form
-    setFormData({
-      email: '',
-      subject: '',
-      message: ''
-    });
+      // Reset form
+      setFormData({
+        email: '',
+        subject: '',
+        message: ''
+      });
+    }
   };
 
   return (

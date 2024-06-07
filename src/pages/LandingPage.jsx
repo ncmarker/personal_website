@@ -11,7 +11,7 @@ import projectsData from '../data/projectData.js';
 
 function LandingPage() {
   return (
-    <div className="w-10/12 mx-auto">
+    <div className="w-10/12 mx-auto" id="landing-content">
 
         <section className="flex flex-col-reverse justify-between items-center mt-16 gap-8 md:flex-row md:mt-[160px]">
           <div className="w-11/12 md:w-5/12">

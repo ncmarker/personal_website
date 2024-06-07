@@ -2,7 +2,18 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './Button.scss';
 
+import { useNavigation } from '../transitions/NavigationContext';
+
+
 function Button(props) {
+  const { setDirection, setSource } = useNavigation();
+  const handleClick = () => {
+    if (props.text.toLowerCase() === 'see details') {
+      setDirection('forward');
+      setSource('project');
+    }
+  };
+
   const styling = props.styleType === 'filled' ? 'button-filled' : 'button-unfilled';
   const baseClasses = "paragraph rounded-full inline-flex items-center text-white"
 
@@ -16,7 +27,7 @@ function Button(props) {
   );
 
   return (
-    <Link to={props.link} className='cursor-pointer'>
+    <Link to={props.link} className='cursor-pointer' onClick={handleClick}>
         <button className={`${baseClasses} ${styling}`}>
         {props.text}
         {props.type === 'demo' && <PlayIcon />}
