@@ -29,11 +29,11 @@ function Nav() {
     <nav className="relative flex items-center px-8 py-4 text-white h-[77px]">
       <div className="absolute left-8">
         <Link to="/">
-          <img src="/images/icons/logo_icon.png" alt="Logo" className="w-[27px]" />
+          <img src={`${process.env.PUBLIC_URL}/images/icons/logo_icon.png`} alt="Logo" className="w-[27px]" />
         </Link>
       </div>
       
-      <div className="hidden md:flex flex-1 justify-center space-x-8 bold-grey-text">
+      <div className="hidden md:flex flex-1 justify-center space-x-12 bold-grey-text">
         <button onClick={() => handleNavigation('projects')} className="hover:text-white">Projects</button>
         <button onClick={() => handleNavigation('about')} className="hover:text-white">About</button>
         <button onClick={() => handleNavigation('contact')} className="hover:text-white">Contact</button>

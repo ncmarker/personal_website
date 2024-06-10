@@ -34,7 +34,7 @@ function Pixel() {
   ];
 
   return (
-    <div className="w-10/12 mx-auto">
+    <div className="w-[95%] md:w-10/12 mx-auto">
         <BackButton link="/"/>
         <section id="heading" className="flex flex-col-reverse justify-between items-center gap-8 md:mb-40 md:items-start md:flex-row">
             <div>
@@ -52,7 +52,7 @@ function Pixel() {
                     ))}
                 </div>
             </div>
-            <img className="w-4/6 mb-4 md:mb-12 md:w-[37%]" src={project.mockup} alt="Pixel Mockup"/>
+            <img className="w-4/6 mb-4 md:mb-12 md:w-[37%]" src={`${process.env.PUBLIC_URL}${project.mockup}`} alt="Pixel Mockup"/>
         </section>
 
         <div className="flex flex-row gap-12 justify-between">
@@ -82,7 +82,7 @@ function Pixel() {
               <div className="flex flex-col gap-16">
                 {project.features.map((feature, index) => (
                 <div key={index} className="flex flex-col gap-16 mb-8 md:mb-0 md:flex-row">
-                  <img className="w-full object-contain md:w-[45%]" src={feature.image} alt={feature.title} />
+                  <img className="w-full object-contain md:w-[45%]" src={`${process.env.PUBLIC_URL}${feature.image}`} alt={feature.title} />
                   <div className="flex flex-col gap-4">
                     <h3 className="subtitle-bold">{feature.title}</h3>
                     <p className="grey-text">{feature.description}</p>
@@ -124,7 +124,7 @@ function Pixel() {
 
             <section id="system-design">
               <h1 className="heading mb-16">System Design</h1>
-              <img src={project.systemDesign} alt="System Design"/>
+              <img src={`${process.env.PUBLIC_URL}${project.systemDesign}`} alt="System Design"/>
             </section>
 
             <section id="challenges" className="flex flex-col">

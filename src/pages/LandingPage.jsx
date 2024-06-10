@@ -19,7 +19,7 @@ function LandingPage() {
             <h1 className="heading my-[7px] md:my-[15px]">Nick Marker</h1>
             <p className="bold-grey-text">I am a <span className="bold-gradient-text">Software Engineer</span> interested in the intersection of Design, Development, and Artificial Intelligence.</p>
           </div>
-          <img className="w-5/6 mb-12 md:flex md:w-5/12" src="/images/landing/landing_hero.png" alt="Hero Animation"/>
+          <img className="w-5/6 mb-12 md:flex md:w-5/12" src={`${process.env.PUBLIC_URL}/images/landing/landing_hero.png`} alt="Hero Animation"/>
         </section>
 
         <section id="projects" className="page-section">
@@ -28,7 +28,7 @@ function LandingPage() {
             {projectsData.map((project, index) => (
               <ProjectCard
                 key={index}
-                image={project.image}
+                image={`${process.env.PUBLIC_URL}${project.image}`}
                 alt={project.alt}
                 title={project.title}
                 description={project.description}
@@ -45,7 +45,7 @@ function LandingPage() {
         <section id="about" className="page-section">
           <div className="flex flex-col md:flex-row gap-8 md:gap-16">
             <div className="md:w-2/5 w-full">
-              <img className="w-full h-auto" src="/images/landing/landing_about.png" alt="headshot"/>
+              <img className="w-full h-auto" src={`${process.env.PUBLIC_URL}/images/landing/landing_about.png`} alt="headshot"/>
             </div>
             <div className="md:w-3/5 w-full flex flex-col gap-8">
               <h1 className="heading mb-[25px]">About</h1>
@@ -63,13 +63,13 @@ function LandingPage() {
           </div>
           <div className="flex flex-col gap-4 my-[50px] md:flex-row md:flex-wrap md:justify-between md:my-[150px]">
             <div className="flex justify-center md:w-auto">
-              <PillarCard title="Development" image="/images/icons/dev_icon.png" alt="dev icon" text="Software Engineer with full-stack experience in building digital platforms, while incorporating the power of AI."/>
+              <PillarCard title="Development" image={`${process.env.PUBLIC_URL}/images/icons/dev_icon.png`} alt="dev icon" text="Software Engineer with full-stack experience in building digital platforms, while incorporating the power of AI."/>
             </div>
             <div className="flex justify-center md:w-auto">
-              <PillarCard title="Innovation" image="/images/icons/innovation_icon.png" alt="innovation icon" text="Entrepreneur who has completed multiple startup incubators, building and pitching products from the ground up."/>
+              <PillarCard title="Innovation" image={`${process.env.PUBLIC_URL}/images/icons/innovation_icon.png`} alt="innovation icon" text="Entrepreneur who has completed multiple startup incubators, building and pitching products from the ground up."/>
             </div>
             <div className="flex justify-center md:w-auto">
-              <PillarCard title="Design" image="/images/icons/design_icon.png" alt="design icon" text="Prior experience in UX Design and Research, allowing me to have exposure to the full product lifecycle."/>
+              <PillarCard title="Design" image={`${process.env.PUBLIC_URL}/images/icons/design_icon.png`} alt="design icon" text="Prior experience in UX Design and Research, allowing me to have exposure to the full product lifecycle."/>
             </div>
           </div>
             <h5 className="title mb-[20px]">Languages & Frameworks</h5>
@@ -88,10 +88,10 @@ function LandingPage() {
           <div className="flex flex-row justify-between gap-4 md:gap-12 flex-wrap items-baseline">
             <h1 className="heading mb-[25px] md:mb-[85px]">Contact</h1>
             <div className="flex flex-row gap-12 flex-wrap mb-[25px] md:mb-0">
-              <ContactIcon image="/images/icons/resume_icon.png" alt="Resume icon" link="https://drive.google.com/file/d/1tDPzm3_wVw4KKb7MEEf4AKZTPhrd8O2k/view"/>
-              <ContactIcon image="/images/icons/linkedin_icon.png" alt="LinkedIn icon" link="https://www.linkedin.com/in/nickmarker"/>
-              <ContactIcon image="/images/icons/github_icon.png" alt="GitHub icon" link="https://www.github.com"/>
-              <ContactIcon image="/images/icons/phone_icon.png" alt="Phone icon" link="tel:+14843653437"/>
+              <ContactIcon image={`${process.env.PUBLIC_URL}/images/icons/resume_icon.png`} alt="Resume icon" link="https://drive.google.com/file/d/1tDPzm3_wVw4KKb7MEEf4AKZTPhrd8O2k/view"/>
+              <ContactIcon image={`${process.env.PUBLIC_URL}/images/icons/linkedin_icon.png`} alt="LinkedIn icon" link="https://www.linkedin.com/in/nickmarker"/>
+              <ContactIcon image={`${process.env.PUBLIC_URL}/images/icons/github_icon.png`} alt="GitHub icon" link="https://www.github.com"/>
+              <ContactIcon image={`${process.env.PUBLIC_URL}/images/icons/phone_icon.png`} alt="Phone icon" link="tel:+14843653437"/>
             </div>
           </div>
           <ContactCard/>

@@ -38,7 +38,7 @@ const languageAlt = props.language === 'python' ? 'Python Icon' :
                         
 return (
     <div className={`${baseClasses} ${sizeClass}`}>
-        <img className="max-w-[80%] max-h-[80%] object-contain" src={languageImage} alt={languageAlt}/>
+        <img className="max-w-[80%] max-h-[80%] object-contain" src={`${process.env.PUBLIC_URL}${languageImage}`} alt={languageAlt}/>
     </div>
   );
 }
