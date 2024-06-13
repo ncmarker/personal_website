@@ -9,7 +9,7 @@ const projectsData = [
         date: "April 2024",
         languages: ['js', 'css', 'python', 'flask', 'tailwind', 'html', 'react', 'scss'],
         github: "https://github.com/ncmarker/pixel",
-        demo: "https://www.nickmarkerdesign.com",
+        demo: "https://www.loom.com/share/95d742ff1db04623a2d9acf19dc7c7e2?sid=d171ce56-5c7e-4164-af32-f123aa89a314",
         details: "/Pixel",
         features: [
             {
@@ -50,7 +50,7 @@ const projectsData = [
         date: "February 2024",
         languages: ['js', 'css', 'html', 'tailwind', 'bun', 'react'],
         github: "https://github.com/chroline/ekko",
-        demo: "https://www.nickmarkerdesign.com",
+        demo: "https://www.loom.com/share/5c348330f8514817baff9b02df00bb1d?sid=9fa298b1-cba7-489e-b0ab-3cb46901e606",
         details: "/Ekko",
         features: [
             {
@@ -86,7 +86,7 @@ const projectsData = [
         date: "October 2024",
         languages: ['js', 'css', 'html'],
         github: "https://github.com/ncmarker/DESY",
-        demo: "https://www.nickmarkerdesign.com",
+        demo: "https://www.loom.com/share/e106e0a55e89482db5be4b3c264b14a7?sid=a3979e60-8381-4225-93ba-b74b928087d8",
         details: "/Desy",
         features: [
             {
@@ -117,7 +117,7 @@ const projectsData = [
         date: "May 2024",
         languages: ['js', 'css', 'html', 'php', 'mysql'],
         github: "https://github.com/ncmarker/Song_Guess",
-        demo: "https://www.nickmarkerdesign.com",
+        demo: "https://www.loom.com/share/1f5a543bac214153a88acbf8b241df4e?sid=5a03c213-7a3a-4917-9d5b-8160e1d2f604",
         details: "/Spotify",
         features: [
             {
@@ -153,7 +153,7 @@ const projectsData = [
         date: "May 2024",
         languages: ['sklearn', 'python', 'flask', 'css', 'html'],
         github: "https://github.com/ncmarker/MyPassword",
-        demo: "https://www.nickmarkerdesign.com",
+        demo: "https://www.loom.com/share/459d2beac2684d069144e7a3120a16d2?sid=727ee987-96ab-4698-bc11-c87d0dec9845",
         details: "/MyPassword",
         features: [
             {
@@ -184,7 +184,7 @@ const projectsData = [
         date: "May 2023",
         languages: ['js', 'css', 'html', 'react'],
         github: "https://github.com/ncmarker/blackjack",
-        demo: "https://www.nickmarkerdesign.com",
+        demo: "https://www.loom.com/share/52ed8bbb0d364959ba343b3f57422047?sid=ef7f4dfc-9099-48f6-b229-121d62ead676",
         details: "/Blackjack",
         features: [
             {
@@ -210,7 +210,7 @@ const projectsData = [
         date: "May 2023",
         languages: ['python'],
         github: "https://github.com/ncmarker/mockSearch",
-        demo: "https://www.nickmarkerdesign.com",
+        demo: "https://www.loom.com/share/737fdfb4b5a14147a137f43e2864de41?sid=a2be97a4-5616-41cf-9112-68bc0eabfede",
         details: "/MockSearch",
         features: [
             {
