@@ -13,7 +13,7 @@ const useIntersectionObserver = (rootSelector) => {
 
     const rootElement = document.querySelector(rootSelector);
     if (rootElement) {
-      const elements = rootElement.querySelectorAll('*:not(svg)');
+      const elements = rootElement.querySelectorAll('*:not(svg):not(path)');
       elements.forEach((el) => {
         el.classList.add('fade-in');
         observer.observe(el);

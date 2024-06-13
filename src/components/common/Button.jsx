@@ -26,8 +26,10 @@ function Button(props) {
     </svg>
   );
 
+  const shouldOpenInNewTab = props.text.toLowerCase() !== 'see details';
+
   return (
-    <Link to={props.link} className='cursor-pointer' onClick={handleClick}>
+    <Link to={props.link} target={shouldOpenInNewTab ? '_blank' : ''} className='cursor-pointer' onClick={handleClick}>
         <button className={`${baseClasses} ${styling}`}>
         {props.text}
         {props.type === 'demo' && <PlayIcon />}
