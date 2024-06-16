@@ -56,7 +56,7 @@ function Nav() {
       </div>
 
       {isOpen && (
-        <div className="absolute top-16 left-0 w-full bg-color flex flex-col items-center space-y-4 py-4 md:hidden">
+        <div className="absolute bg-color top-16 left-0 w-full bg-color flex flex-col items-center space-y-4 py-4 md:hidden">
           <button onClick={() => handleNavigation('projects')} className="hover:text-white">Projects</button>
           <button onClick={() => handleNavigation('about')} className="hover:text-white">About</button>
           <button onClick={() => handleNavigation('contact')} className="hover:text-white">Contact</button>
