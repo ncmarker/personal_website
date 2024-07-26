@@ -90,7 +90,7 @@ function LandingPage() {
             <div className="flex flex-row gap-12 flex-wrap mb-[25px] md:mb-0">
               <ContactIcon image={`${process.env.PUBLIC_URL}/images/icons/resume_icon.png`} alt="Resume icon" link="https://drive.google.com/file/d/1tDPzm3_wVw4KKb7MEEf4AKZTPhrd8O2k/view"/>
               <ContactIcon image={`${process.env.PUBLIC_URL}/images/icons/linkedin_icon.png`} alt="LinkedIn icon" link="https://www.linkedin.com/in/nickmarker"/>
-              <ContactIcon image={`${process.env.PUBLIC_URL}/images/icons/github_icon.png`} alt="GitHub icon" link="https://www.github.com"/>
+              <ContactIcon image={`${process.env.PUBLIC_URL}/images/icons/github_icon.png`} alt="GitHub icon" link="https://github.com/ncmarker?tab=repositories"/>
               <ContactIcon image={`${process.env.PUBLIC_URL}/images/icons/phone_icon.png`} alt="Phone icon" link="tel:+14843653437"/>
             </div>
           </div>
