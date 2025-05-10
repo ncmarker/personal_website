@@ -17,7 +17,7 @@ function LandingPage() {
           <div className="w-11/12 md:w-5/12">
             <p className="bold-grey-text">&#128075; Hi there, I am</p>
             <h1 className="heading my-[7px] md:my-[15px]">Nick Marker</h1>
-            <p className="bold-grey-text">I am a <span className="bold-gradient-text">Software Engineer</span> interested in the intersection of Design, Development, and Artificial Intelligence.</p>
+            <p className="bold-grey-text">I am a <span className="bold-gradient-text">Software Engineer</span> focused on user-facing systems—from games to interactive apps—crafting intuitive and visually rich experiences.</p>
           </div>
           <img className="w-5/6 mb-12 md:flex md:w-5/12" src={`${process.env.PUBLIC_URL}/images/landing/landing_hero.png`} alt="Hero Animation"/>
         </section>
@@ -74,7 +74,8 @@ function LandingPage() {
           </div>
             <h5 className="title mb-[20px]">Languages & Frameworks</h5>
             <div className="flex flex-wrap justify-between flex-row">
-            {['js', 'css', 'html', 'python', 'flask', 'tailwind', 'cpp', 'react', 'php', 'scss', 'sklearn', 'mysql'].map((language, index) => (
+            {['js', 'css', 'html', 'python', 'flask', 'tailwind', 'cpp', 'react', 'php', 'scss', 
+            'sklearn', 'mysql', 'reactnative', 'java', 'unity', 'kafka', 'docker', 'csharp', 'ts'].map((language, index) => (
               <LangIcon
                 key={index}
                 size='large'

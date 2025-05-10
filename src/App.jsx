@@ -19,6 +19,10 @@ import MyPassword from './pages/MyPassword.jsx';
 import Blackjack from './pages/Blackjack.jsx';
 import MockSearch from './pages/MockSearch.jsx';
 import Snap from './pages/Snap.jsx';
+import PersonalizedCashback from './pages/PersonalizedCashback.jsx';
+import GalaxyHunters from './pages/GalaxyHunters.jsx';
+import CompCreator from './pages/CompCreator.jsx';
+import ElementalEscape from './pages/ElementalEscape.jsx';
 
 
 function App() {
@@ -38,6 +42,10 @@ function App() {
           <Route path="/blackjack" element={<Blackjack />} />
           <Route path="/mockSearch" element={<MockSearch />} />
           <Route path="/snap" element={<Snap />} />
+          <Route path="/personalizedcashback" element={<PersonalizedCashback />} />
+          <Route path="/galaxyhunters" element={<GalaxyHunters />} />
+          <Route path="/compcreator" element={<CompCreator />} />
+          <Route path="elementalescape" element={<ElementalEscape />} />
         </TransitionWrapper>
         <Footer />
       </NavigationProvider>

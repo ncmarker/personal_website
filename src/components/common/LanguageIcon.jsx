@@ -19,6 +19,13 @@ function LangIcon(props) {
                     props.language === 'tailwind' ? '/images/icons/tailwind_icon.png' :
                     props.language === 'snap' ? '/images/icons/snap_icon.png' :
                     props.language === 'bun' ? '/images/icons/bun_icon.png' :
+                    props.language === 'ts' ? '/images/icons/ts_icon.png' :
+                    props.language === 'docker' ? '/images/icons/docker_icon.png' :
+                    props.language === 'unity' ? '/images/icons/unity_icon.png' :
+                    props.language === 'kafka' ? '/images/icons/kafka_icon.png' :
+                    props.language === 'csharp' ? '/images/icons/csharp_icon.png' :
+                    props.language === 'java' ? '/images/icons/java_icon.png' :
+                    props.language === 'reactnative' ? '/images/icons/reactnative_icon.png' :
                     '';
 const languageAlt = props.language === 'python' ? 'Python Icon' :
                   props.language === 'cpp' ? 'C++ Icon' :
@@ -34,6 +41,13 @@ const languageAlt = props.language === 'python' ? 'Python Icon' :
                   props.language === 'tailwind' ? 'Tailwind Icon' :
                   props.language === 'snap' ? 'Snap Icon' :
                   props.language === 'bun' ? 'Bun Icon' :
+                  props.language === 'ts' ? 'TS Icon' :
+                  props.language === 'docker' ? 'Docker Icon' :
+                  props.language === 'unity' ? 'Unity Icon' :
+                  props.language === 'kafka' ? 'Kafka Icon' :
+                  props.language === 'csharp' ? 'C# Icon' :
+                  props.language === 'java' ? 'Java Icon' :
+                  props.language === 'reactnative' ? 'React Native Icon' :
                   '';
                         
 return (

@@ -1,5 +1,169 @@
 const projectsData = [
     {
+        image: "/images/landing/landing_personalizedcashback.png",
+        mockup: "/images/personalizedCashback/personalizedcashback_hero.png",
+        alt: "personalizedCashback Image",
+        title: "Cashback",
+        role: "Developer, Designer",
+        description: "Simulate personalized cashback rewards with real-time data",
+        date: "May 2025",
+        languages: ['docker', 'ts', 'kafka', 'reactnative'],
+        github: "https://github.com/ncmarker/personalized-cashback",
+        demo: "https://www.loom.com/share/9a943757ff624c3cabca831ffc9805e0?sid=4965a0de-1c7f-456b-820c-860a66f15a11",
+        details: "/PersonalizedCashback",
+        features: [
+            {
+                image: "/images/personalizedCashback/feature_1.png",
+                title: "Personalized Cashback Engine",
+                description: "Calculates real-time cashback rewards for users based on their purchase history and a store's overstocked inventory. The system identifies purchasing trends and excess supply to issue dynamic, relevant rewards."
+            },
+            {
+                image: "/images/personalizedCashback/feature_2.png",
+                title: "Real-Time Inventory Logs",
+                description: "Kafka streams inventory data for each store, reflecting live product category availability. This allows for reactive reward generation based on current stock levels."
+            },
+            {
+                image: "/images/personalizedCashback/feature_3.png",
+                title: "Transaction Monitoring",
+                description: "Kafka also streams simulated transaction data from users across stores. These are consumed and processed live to match purchase patterns against reward criteria."
+            },
+            {
+                image: "/images/personalizedCashback/feature_4.png",
+                title: "Dyanamic Reward Refresh",
+                description: "Users can tap a button to trigger the reward engine, which recalculates personalized cashback offers based on up-to-the-moment inventory and transaction data."
+            },
+        ],
+        systemDesign: "/images/personalizedCashback/personalizedcashback_system_design.png",
+    },
+    {
+        image: "/images/landing/landing_galaxyhunters.png",
+        mockup: "/images/galaxyHunters/galaxyhunters_hero.png",
+        alt: "Galaxy Hunters Image",
+        title: "Galaxy Hunters",
+        role: "Developer, Game Designer",
+        description: "Test your survival in this multiplayer bullet hell game",
+        date: "April 2025",
+        languages: ['unity', 'csharp'],
+        github: "https://github.com/ncmarker/galaxyHunters",
+        demo: "https://www.loom.com/share/996187b212d94709a69afcde93b3eea0?sid=cfb00b20-9626-425c-a782-1f629d0de97d",
+        details: "/GalaxyHunters",
+        features: [
+            {
+                image: "/images/galaxyHunters/feature_1.png",
+                title: "Character-Based Strategy",
+                description: "Before jumping into the action, players choose between unique characters—each equipped with distinct starting weapons and passive abilities like increased health or speed. This encourages co-op coordination and complementary playstyles."
+            },
+            {
+                image: "/images/galaxyHunters/feature_2.png",
+                title: "Weapon Guide Preview",
+                description: "A pre-game weapon guide lets players review each weapon's strengths, effects, and power-ups. This primes players to form survival strategies before gameplay begins."
+            },
+            {
+                image: "/images/galaxyHunters/feature_3.png",
+                title: "Dynamic Power-Ups",
+                description: "Power-ups scattered throughout the level—health boosts, revives, XP magnets, and more—add fast-paced variability. These items raise the stakes and reward risk-taking in critical moments."
+            },
+            {
+                image: "/images/galaxyHunters/feature_4.png",
+                title: "Collaborative Co-op Combat",
+                description: "At the heart of the game is its two-player mode. Some weapons only activate through joint actions (e.g. cross-player lasers or dual explosions), requiring constant communication and teamwork."
+            },
+            {
+                image: "/images/galaxyHunters/feature_5.png",
+                title: "In-Game Weapon Upgrades",
+                description: "As players level up, they can upgrade weapons or unlock new ones. These mid-game decisions allow for evolving strategies, giving players a sense of progression and agency."
+            },
+            {
+                image: "/images/galaxyHunters/feature_6.png",
+                title: "Narrative Powered Minimap",
+                description: "The minimap provides direction and ties directly into the story: destroy incubators, defeat bosses, collect stars, and save Earth. It keeps players on track while enhancing immersion."
+            },
+        ],
+        systemDesign: "/images/galaxyHunters/galaxyhunters_system_design.png",
+    },
+    {
+        image: "/images/landing/landing_compcreator.png",
+        mockup: "/images/compCreator/compcreator_hero.png",
+        alt: "CompCreator Image",
+        title: "CompCreator",
+        role: "Developer, Designer",
+        description: "Create reusable UI components with ease",
+        date: "November 2024",
+        languages: ['js', 'css', 'html', 'react', 'tailwind'],
+        github: "https://github.com/ncmarker/component-creator",
+        demo: "https://www.loom.com/share/304265ca65c34cd180627f4dd3e2cdf6?sid=fe4fb656-e389-419b-aa37-f5f12b7ad7b2",
+        details: "/CompCreator",
+        features: [
+            {
+                image: "/images/compCreator/feature_1.png",
+                title: "Secure User Login",
+                description: "Users can create an account to securely save their components in a personal library. This means you can log in anytime, access your work, and keep improving or reusing your saved components without starting from scratch."
+            },
+            {
+                image: "/images/compCreator/feature_2.png",
+                title: "My Components Dashboard",
+                description: "This dashboard provides a centralized view of all your saved components. Here, you can search, organize, and edit your library. The dashboard ensures efficient management of reusable components, helping you maintain a clean and structured approach to your projects."
+            },
+            {
+                image: "/images/compCreator/feature_3.png",
+                title: "Customize Components",
+                description: "The heart of the platform is the component customization page. This is where you can create and customize basic reusable components in real time. With an interactive live render, you can see how your changes take effect instantly. Additionally, a code export option allows you to copy the React code of your component, making it ready for seamless implementation in your projects."
+            },
+            {
+                image: "/images/compCreator/feature_4.png",
+                title: "Discover Inspiration",
+                description: "Creativity is often sparked by examples, which is why the inspiration page lets you search for design ideas effortlessly. This feature helps users discover visually appealing elements to guide their component creation process, ensuring your designs are both functional and aesthetically pleasing."
+            },
+            {
+                image: "/images/compCreator/feature_5.png",
+                title: "Personalized Inspiration Library",
+                description: "Store and manage all your favorite inspiration photos in one place. This feature allows you to revisit your saved ideas when working on new components, providing a personalized repository for creativity and design reference."
+            },
+        ],
+        systemDesign: "/images/compCreator/compcreator_system_design.png",
+    },
+    {
+        image: "/images/landing/landing_elementalescape.png",
+        mockup: "/images/elementalEscape/elementalescape_hero.png",
+        alt: "Elemental Escape Image",
+        title: "Elemental Escape",
+        role: "Developer, Designer",
+        description: "Simulate personalized cashback rewards with real-time data",
+        date: "December 2024",
+        languages: ['unity', 'csharp'],
+        github: "https://github.com/ncmarker/elementalEscape",
+        demo: "https://www.loom.com/share/946f561d32ad49b09709df6c5194020b?sid=b899395c-6c6e-479c-9f82-e88820d574ec",
+        details: "/ElementalEscape",
+        features: [
+            {
+                image: "/images/elementalEscape/feature_1.png",
+                title: "Challenging Platformer Map",
+                description: "The game's levels are designed as strategic platforming challenges. Players must navigate barricades, elevation changes, and destructible objects while planning their path carefully. Some obstacles require precise timing, while others demand clever use of elemental powers to clear the way."
+            },
+            {
+                image: "/images/elementalEscape/feature_2.png",
+                title: "10 Strategic Levels",
+                description: "Each level introduces a different challenge, encouraging players to experiment with new strategies. Some levels emphasize mastering a specific element's ability, while others test navigation skills with complex terrain. Players can revisit completed levels to refine their approach and improve their performance."
+            },
+            {
+                image: "/images/elementalEscape/feature_3.png",
+                title: "Clear Directions",
+                description: "Before starting, players can review detailed in-game instructions, including visuals explaining how to use each elemental power. These guides help new players quickly understand the mechanics and plan their approach before diving into the game."
+            },
+            {
+                image: "/images/elementalEscape/feature_4.png",
+                title: "Immersive Audio",
+                description: "To enhance engagement, dynamic sound effects play for key actions like jumping, attacking, and using elemental abilities. Win and loss conditions trigger specific audio and visual feedback, making each interaction feel more immersive."
+            },
+            {
+                image: "/images/elementalEscape/feature_5.png",
+                title: "Element-Based Powers",
+                description: "Players collect potions throughout each level that transform them into different elemental forms. Since each power is limited in use, timing and order matter. Players must think ahead to avoid getting stuck, adding an extra layer of depth to the puzzle-platformer experience."
+            },
+        ],
+        systemDesign: "/images/elementalEscape/elementalescape_system_design.png",
+    },
+    {
         image: "/images/landing/landing_pixel.png",
         mockup: "/images/pixel/pixel_hero.png",
         alt: "Pixel Image",
