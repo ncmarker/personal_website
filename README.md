@@ -1,19 +1,3 @@
-https://ncmarker.github.io/personal_website/
-
-# Note:
-run both each time an update is made
-```bash 
-npm run build
-npm run deploy
-```
-
-```bash 
-git add . 
-git commit -m "message"
-git push origin branch
-```
-
-
 ## Deployment to GitHub Pages
 
 ### Steps to deploy an update:
@@ -38,4 +22,4 @@ git push origin branch
     - Click Publish to make sure the changes are live.
 
 4. **Wait for the site to be available**:
-The site will show a 404 error on the default GitHub Pages URL (username.github.io/personal_website) until you update the custom domain. After setting the custom domain, the site should be accessible at your custom URL (e.g., https://nickmarker.com).
+The site will show a 404 error on the default GitHub Pages URL (https://ncmarker.github.io/personal_website/) until you update the custom domain. After setting the custom domain, the site should be accessible at your custom URL (e.g., https://nickmarker.com).
