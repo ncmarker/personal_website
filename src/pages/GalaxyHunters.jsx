@@ -70,8 +70,8 @@ function GalaxyHunters() {
                 was built using Unity and C# and involved <span className="bold-gradient-text">multiple development cycles</span>, incorporating player feedback and gameplay metrics 
                 to refine mechanics and user experience. I <span className="bold-gradient-text">partnered with a classmate</span> who contributed to engineering and led the creation 
                 of original sprite artwork, while I handled the majority of the programming, animations, and systems design. Additional 
-                art assets were generated using AI and animated manually. Through this project, I gained experience with <span className="bold-gradient-text">Perforce</span> 
-                version control, which differed from my prior Git-based workflows, and deepened my understanding of real-time, 
+                art assets were generated using AI and animated manually. Through this project, I gained experience with <span className="bold-gradient-text">Perforce</span> version 
+                control, which differed from my prior Git-based workflows, and deepened my understanding of real-time, 
                 event-driven game logic.
                 </p>
             </section>

@@ -128,7 +128,7 @@ const projectsData = [
         alt: "Elemental Escape Image",
         title: "Elemental Escape",
         role: "Developer, Designer",
-        description: "Simulate personalized cashback rewards with real-time data",
+        description: "Escape the forest in this magical, interactive mobile game",
         date: "December 2024",
         languages: ['unity', 'csharp'],
         github: "https://github.com/ncmarker/elementalEscape",
